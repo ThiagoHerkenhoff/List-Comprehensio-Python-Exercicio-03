@@ -1,0 +1,16 @@
+"""
+Objetivo: Criar uma lista com os comprimentos das palavras de uma lista fornecida.
+
+Instruções:
+
+Dada uma lista de palavras, usar list comprehension para criar uma lista com os comprimentos de cada
+palavra.
+
+Exibir a lista resultante.
+
+"""
+
+palavras = ["Python", "é", "uma", "linguagem", "poderosa"]
+
+comprimento = [len(palavra) for palavra in palavras]
+print(comprimento)
